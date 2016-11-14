@@ -83,7 +83,7 @@ var V = {
     }
 };
 
-//Controllore. Contiene la logica del programma
+//Controllore. Contiene la logica del programma.
 var C = {
     showMenu: function() {
         V.displayMenu();
