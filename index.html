@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1> Welcome to the warehouse Manager </h1>
+    <table id="table" border="1">
+        <tr>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <div id="insertDiv" style="display:none;">
+        <p>Menu per nuovi item</p>
+        <input type="text" placeholder="Nome item" id="itemNameTxt" />
+        <input type="text" placeholder="Quantita item" id="itemQuantityTxt" />
+        <button id="btnInsert" onclick="C.insertItem()">Conferma Inserimento</button>
+    </div>
+    <button id="btnMenu" onclick="C.showMenu()">Clicca per inserire nuovi item</button>
+    <div>
+        <p>Limite attuale:</p>
+        <p id="limitP">30</p>
+        <button id="btnMenu" onclick="C.updateLimit()">Clicca per aggionare il limite</button>
+        <input type="text" placeholder="Nuovo limite" id="itemLimitTxt" />
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+</html>
